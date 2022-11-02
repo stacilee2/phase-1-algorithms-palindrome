@@ -1,9 +1,17 @@
-function isPalindrome(word) {
-  // Write your algorithm here
+function isPalindrome(string) {
+  const word = word.length;
+  for (let i = 0; i < len / 2; i++) {
+    if (word[i] === word[len- 1 - i]) {
+      return 'It is a palindrome';
+    } else {
+      return 'It is not a palindrome'
+    }
+  }
 }
 
 /* 
   Add your pseudocode here
+Expect first element, second element to match last element, second to last element in word
 */
 
 /*
